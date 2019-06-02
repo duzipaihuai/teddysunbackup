@@ -1,4 +1,4 @@
-![Shadowsocks](https://github.com/teddysunbackup/shadowsocks_install/raw/master/shadowsocks.png)
+![Shadowsocks](https://github.com/zcw168/teddysunbackup/shadowsocks_install/raw/master/shadowsocks.png)
 # Auto install Shadowsocks Server
 
 shadowsocks.sh
@@ -7,7 +7,7 @@ shadowsocks.sh
 - https://web.archive.org/web/20190514071129/https://teddysun.com/342.html
 
 ```
-wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/teddysunbackup/shadowsocks_install/master/shadowsocks.sh
+wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/zcw168/teddysunbackup/shadowsocks_install/master/shadowsocks.sh
 chmod +x shadowsocks.sh
 ./shadowsocks.sh 2>&1 | tee shadowsocks.log
 ```
@@ -18,7 +18,7 @@ shadowsocks-libev.sh
 - https://web.archive.org/web/20190514070953/https://teddysun.com/357.html
 
 ```
-wget --no-check-certificate -O shadowsocks-libev.sh https://raw.githubusercontent.com/teddysunbackup/shadowsocks_install/master/shadowsocks-libev.sh
+wget --no-check-certificate -O shadowsocks-libev.sh https://raw.githubusercontent.com/zcw168/teddysunbackup/shadowsocks_install/master/shadowsocks-libev.sh
 chmod +x shadowsocks-libev.sh
 ./shadowsocks-libev.sh 2>&1 | tee shadowsocks-libev.log
 ```
@@ -29,7 +29,7 @@ shadowsocks-libev-debian.sh
 - https://web.archive.org/web/20190514070919/https://teddysun.com/358.html
 
 ```
-wget --no-check-certificate -O shadowsocks-libev-debian.sh https://raw.githubusercontent.com/teddysunbackup/shadowsocks_install/master/shadowsocks-libev-debian.sh
+wget --no-check-certificate -O shadowsocks-libev-debian.sh https://raw.githubusercontent.com/zcw168/teddysunbackup/shadowsocks_install/master/shadowsocks-libev-debian.sh
 chmod +x shadowsocks-libev-debian.sh
 ./shadowsocks-libev-debian.sh 2>&1 | tee shadowsocks-libev-debian.log
 ```
@@ -40,7 +40,7 @@ shadowsocks-go.sh
 - https://web.archive.org/web/20190514071207/https://teddysun.com/392.html
 
 ```
-wget --no-check-certificate -O shadowsocks-go.sh https://raw.githubusercontent.com/teddysunbackup/shadowsocks_install/master/shadowsocks-go.sh
+wget --no-check-certificate -O shadowsocks-go.sh https://raw.githubusercontent.com/zcw168/teddysunbackup/shadowsocks_install/master/shadowsocks-go.sh
 chmod +x shadowsocks-go.sh
 ./shadowsocks-go.sh 2>&1 | tee shadowsocks-go.log
 ```
@@ -51,7 +51,7 @@ shadowsocks-crond.sh
 - https://web.archive.org/web/20190309150738/https://teddysun.com/525.html
 
 ```
-wget --no-check-certificate -O /opt/shadowsocks-crond.sh https://raw.githubusercontent.com/teddysunbackup/shadowsocks_install/master/shadowsocks-crond.sh
+wget --no-check-certificate -O /opt/shadowsocks-crond.sh https://raw.githubusercontent.com/zcw168/teddysunbackup/shadowsocks_install/master/shadowsocks-crond.sh
 chmod 755 /opt/shadowsocks-crond.sh
 ```
 
@@ -63,7 +63,7 @@ shadowsocksR.sh
 - 使用root用户登录，运行以下命令：
 
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/teddysunbackup/shadowsocks_install/master/shadowsocksR.sh
+wget --no-check-certificate https://raw.githubusercontent.com/zcw168/teddysunbackup/shadowsocks_install/master/shadowsocksR.sh
 chmod +x shadowsocksR.sh
 ./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
 ```
@@ -89,7 +89,7 @@ shadowsocks-all.sh
 - 使用root用户登录，运行以下命令：
 
 ```
-wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysunbackup/shadowsocks_install/master/shadowsocks-all.sh
+wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/zcw168/teddysunbackup/shadowsocks_install/master/shadowsocks-all.sh
 chmod +x shadowsocks-all.sh
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
 ```
@@ -126,7 +126,7 @@ haproxy.sh
 - 使用haproxy中转Shadowsocks流量一键安装脚本
 - 使用root用户登录，运行以下命令：
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/teddysunbackup/shadowsocks_install/master/haproxy.sh
+wget --no-check-certificate https://raw.githubusercontent.com/zcw168/teddysunbackup/shadowsocks_install/master/haproxy.sh
 chmod +x haproxy.sh
 ./haproxy.sh
 ```
