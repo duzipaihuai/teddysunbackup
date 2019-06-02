@@ -1,4 +1,4 @@
-![Shadowsocks](https://github.com/zcw168/teddysunbackup/shadowsocks_install/raw/master/shadowsocks.png)
+![Shadowsocks](https://github.com/zcw168/teddysunbackup/shadowsocks.png)
 # Auto install Shadowsocks Server
 
 shadowsocks.sh
